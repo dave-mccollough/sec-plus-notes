@@ -1,0 +1,266 @@
+# Types of Attacks
+
+- **Malware**
+  - Malicious Software
+  - Designed to cause damage to computer, server, network, etc
+  - Malware encompasses a wide range of intrusive software, including
+    - Viruses
+    - Worms
+    - Trojan horses
+    - Spyware
+    - Keyloggers
+    - Logic Bomb
+    - Rootkit
+
+- **VIruses**
+  - Malicious software designed to spread to other computers
+  - Typically attaches itself to legitimate software and executes its code when the host software runs
+  - Viruses require some type of user action to run, executing a program, opening a file
+  - Infection mechanisms
+    - File Vector viruses
+      - Attach themselves to files
+      - Spread to other executables when the program is run
+    - Macro Viruses
+      - Written in macro language (MS Word, Excel, etc)
+      - Spreads through these types of documents
+    - Boot Sector Viruses
+      - Infect the master boot record of a hard drive
+      - Ensures they are executed when the computer boots up
+  - Detection and removal
+    - Antivirus software
+    - Regular updates to software
+    - System scans for viruses
+
+- **Worms**
+  - Type of malware that replicates itself to spread to other computers
+  - Does not require user intervention to spread
+  - Exploit vulnerabilities in network services to propagate across networks
+- Mitigation Strategies
+  - Patch management
+  - Antivirus/antimalware software
+  - Network segmentation
+  - Access controls
+  - Firewalls
+  - Traffic filtering
+  - Disable unnecessary services
+  - User training/awareness
+
+- **Trojans**
+  - Short for trojan horse
+  - Disguises itself as legitimate software or is hidden in legitimate software
+  - Mitigation Strategies
+    - Antivirus/antimalware software
+    - Network segmentation
+    - Access controls
+    - Firewalls
+    - Traffic filtering
+    - User training/awareness
+
+- **Ransomware**
+  - Type of malicious software designed to block access to a computer system or encrypt files until a sum of money is paid
+  - Threat to the availability of data
+  - Ransomware characteristics
+    - Encryption of data
+    - Payment demands to unencrypt data
+  - Distribution methods
+    - Phishing emails
+    - Vulnerabilities in network or software
+    - Web advertisements
+    - Mitigation Strategies
+      - Patch management
+      - Antivirus/antimalware software
+      - Network segmentation
+      - Access controls
+      - Firewalls
+      - Traffic filtering
+      - Disable unnecessary services
+      - User training/awareness
+      - Data backup
+
+- **Spyware**
+  - Type of malware designed to gather data from a user or organization without their knowledge or consent
+  - Can collect various types of data including internet usage data, login credentials, confidential information
+  - Spyware characteristics
+    - Data collection
+      - Log keystrokes
+      - Capture screen images
+      - Record browsing history
+      - Access files
+    - Surveillance
+      - Potentially activate cameras or microphones
+    - Stealth
+      - Runs hidden in background, sometimes disguised as legitimate software
+    - Communication
+      - Collected data is transmitted to a third party
+    - Mitigation Strategies
+      - Patch management
+      - Antivirus/antimalware software
+      - Firewalls
+      - Traffic filtering
+      - User training/awareness
+      - Secure browsing habits
+
+- **Rootkit**
+  - Type of malware that provides continuous elevated access to a system while hiding it's presence from users and administrators
+  - Rootkits can be installed by threat actor after gaining to a system
+  - Mitigation Strategies
+    - Secure system access
+    - Antivirus/antirootkit tools
+    - System hardening
+    - Patch management 
+    - Secure boot
+
+- **Logic Bombs**
+  - Code intentionally inserted into software that will perform malicious activities when certain criteria are met
+  - Do not replicate themselves
+  - Dormant until triggered by a specific event
+  - Often deployed by disgruntled employees
+  - Hard to detect
+  - Mitigation Strategies
+    - Code reviews
+    - Access controls
+    - Change Management
+    - Regular backups
+    - Security Awareness Training
+    - Antivirus/antimalware software
+
+- **Keyloggers**
+- Type of malware that records keystrokes
+- Monitors and logs all keypresses
+- Software or hardware based
+- Mitigation Strategies
+  - Antivirus/antimalware software
+  - Access controls
+  - Change management
+  - Regular backups
+  - Security Awareness Training
+  - Update operating systems and applications
+  - MFA
+  - Monitor of keyloggers
+  - Use onscreen keyboards whenever possible
+
+- **Bloatware**
+- Unwanted software preinstalled on a device
+- Not inherently malicious, but can negatively impact system performance
+- Characteristics of bloatware
+  - Pre-installed applications
+  - Resource consumption
+  - Difficult to remove
+- Mitigation Strategies
+  - Careful selection of devices or hardware partners
+  - Bloatware removal tools
+  - Disable unnecessary applications
+  - Custom OS installation
+
+- **DDoS**
+- Distributed Denial of Service
+- Type of malware that disrupts normal traffic of a server or service by overwhelming it with a flood of network traffic
+- Multiple compromised computer systems are the source of the attack
+- Network Based DDoS
+  - Using multiple compromised systems to launch a single attack
+  - Compromised systems form a network called a botnet
+- SYN Floods
+  - Type of DDoS attack that targets the TCP connection sequence
+- Mitigation Strategies
+  - Increased bandwidth
+  - DDoS protection service
+  - Network hardware with DDoS protection
+
+- **DNS**
+- Domain Name Service
+- Matches domain names to ip addresses
+- DNS Spoofing
+  - Corrupting DNS cache with false information
+  - Redirect traffic from a legitimate website to a fraudulent one
+  - Often used for phishing attacks
+- DNS Tunnelling
+  - Exfiltrate data from compromised systems
+- DNS Hijacking
+  - DNS queries are diverted to a malicious DNS server
+  - Leads users to fraudulent websites
+  - Can be done by compromising DNS server or DNS settings on victims device
+- Mitigation Strategies
+  - DNSSEC
+    - DNS Security Extensions
+    - Ensures DNS responses are returned from the correct source
+  - Updating and patching DNS servers
+  - Monitoring
+
+- **On-path Attack**
+- Previously known as man in the middle attack
+- Attacker positions themselves between two parties
+- Session Hijacking
+  - Attacker can hijack sessions by stealing session tokens
+  - Allows the attacker the ability to impersonate the victim and gain unauthorized access to systems
+- Data Manipulation
+  - Modifies the data being sent between parties
+  - Inject malicious content or redirect the user to a fraudulent site
+- SSL Striping
+  - Attacker downgrades encrypted HTTPS connection to unencrypted HTTP connection
+  - Allows attacker to view and modify data exchanged
+- Mitigation Strategies
+  - End to end encryption
+  - VPN
+    - Provides a secure tunnel for data transmission
+  - Training and awareness
+
+- **Credential Replay**
+- Attacker captures and reuses victims credentials to gain unauthorized access to a system
+- Attack exploits scenarios where credentials are transmitted over the network
+- Mitigation Strategies
+  - Encryption
+  - MFA
+  - Strong password requirements/password policies
+  - Monitoring
+
+- **Privilege Escalation**
+- Attacker gains elevated access to resources that are typically protected from an application or a user
+- Attacker starts at a lower permission level and escalates their privileges
+- Privilege escalation process typically involves:
+  - Exploiting vulnerabilities in hardware or software
+    - Software bugs
+    - Misconfigurations
+  - Bypassing Security Mechanisms
+  - Social Engineering
+  - Utilizing existing credentials
+- Vertical Privilege Escalation
+  - Attacker gains a higher level of privilege than they should have
+  - Similar to a regular user getting admin access
+- Horizontal Privilege Escalation
+  - Attacker expanding their control across a network or system with the same level of privileges
+
+- **Request Forgery**
+- Attacker tricks the victims browser or application into performing unwanted actions on a trusted site where the victim is authenticated
+- Cross-Site Request Forgery (CSRF)
+  - Attacker forces a logged in victims browser to send a forged request to a web application
+  - Application processes request - unable to distinguish between fake and legitimate request
+  - Mitigation Strategies
+    - Implement anti-CSRF tokens in applications
+    - Use custom headers and check 'Referer' header to validate requests
+- Server-Side Request Forgery (SSRF)
+  - Attacher forces a server to make a request to an internal service within an organization from a third-party service
+  - Used to bypass firewalls, access sensitive data, conduct port scanning
+  - Mitigation Strategies
+    - Validate and sanitize user input
+    - Apply principles of least privilege
+    - Use firewalls and network segmentation to limit reach of requests from web facing servers
+
+- **Directory Traversal**
+- Attacker access files and directories stored outside the web root folder
+- By manipulating variables that reference files or using absolute file paths, it may be possible to access files stored in the web server file system
+- Mitigation Strategies
+  - Ensure proper web server configuration
+
+- **Indicators of Malicious Attacks**
+- Account lockouts
+- Concurrent session usage
+  - Single account logged into multiple sessions
+- Blocked content
+- Impossible travel
+  - Logins from geographically distant locations
+- Unusual resource consumption
+- Resource inaccessibility
+  - Servers or resources being inaccessible
+- Out of cycle logging - Logs generated outside of expected timeframes
+- Published/documented vulnerabilities
+- Missing logs
