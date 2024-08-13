@@ -7,3 +7,4 @@ Security+ certification notes
 - [Threats](03-threats.md)
 - [Vulnerabilities](04-vulnerabilities.md)
 - [Types of Attacks](05-attacks.md)
+- [Social Engineering](06-social-engineering.md)                                                                    ´
