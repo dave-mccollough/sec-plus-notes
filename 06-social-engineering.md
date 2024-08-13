@@ -1,0 +1,163 @@
+# Social Engineering
+
+- Malicious activities accomplished through human interaction
+- Tricking people into breaking security policies and procedures to gain unauthorized access
+
+- **Phishing**
+  - Type of cyberattack that attempts to trick individuals into providing sensitive information by purporting to be a trustworthy source
+  - Typically done through email.. can also occur via text, phone calls, or social media
+  - Typically have the following objectives
+    - Credential theft
+    - Fraud
+    - Malware distribution
+    - Identity theft
+  - Mitigation strategies
+    - User education
+    - Email filtering
+    - MFA
+    - Incident Response
+  
+  - **Vishing**
+    - Attackers use phone calls to impersonate trusted entities
+    - Manipulate individuals into providing sensitive information
+    - Relies on spoken communication
+    - Characteristics
+      - Urgent or coercive language
+      - Spoofed caller IDs
+      - Requests for sensitive information
+    - Mitigation Strategies
+      - Training individuals to be sensitive to unsolicited phone calls
+      - Verify the callers identity
+      - MFA
+
+- **Smishing**
+  - SMS Phishing
+  - Attackers use text messages to impersonate trusted entities
+  - Characteristics
+    - Deceptive messages
+    - Requests for information
+    - Spoofed Sender information
+  - Mitigation strategies
+    - Education and awareness training
+    - Verify senders identity
+    - Mobile security software (MDM)
+  
+  - **Spear Phishing**
+    - Targeted form of phishing
+    - Attacker customizes emails for a specific victim
+    - May contain personal information to make it more legitimate
+  
+  - **Misinformation**
+    - Dissemination of false or inaccurate information
+    - Typically unintentional and without malicious intent
+    - Characteristics
+      - Accidental sharing of information
+      - Non-malicious
+      - Unintentional consequences
+    - Mitigation
+      - Training and user education
+      - Fact checking and verification
+      - Evaluate information sources
+  
+  - **Disinformation**
+    - Deliberate spreading of false information
+    - Intent is to deceive. manipulate. or harm
+    - Characteristics
+      - Deliberate
+      - Malicious intent
+      - Targeted and coordinated
+    - Mitigation
+      - Training and user education
+      - Fact checking and verification
+      - Evaluate information sources
+
+- **Impersonation**
+  - Attacker assumes the identity of a legitimate user
+  - Can be done by:
+    - Stealing login credentials
+    - Spoofed email addresses
+    - Mimicked biometric markers
+    - Characteristics
+      - Use of stolen credentials
+      - Deception and manipulation
+      - Targets a range of system
+      - Difficult to deteect
+    - Mitigation
+      - MFA
+      - Strong password requirements
+      - User training and education
+      - Monitoring and logging
+      - Incident response planning
+
+- **Business Email Compromise**
+  - Attacker gains access to a business email account and impersonates the owner
+  - Attacker typically requests sensitive data or fund transfers
+  - Characteristics
+    - Email spoofing
+    - Social engineering attacks
+    - Financially motivated
+    - Highly customized and targeted
+    - Often doesn't involve malware - harder to detect
+  - Mitigation
+    - Security awareness training and education
+    - Email authentication protocols
+      - SPF, DKIM and DMARC
+
+- **Pretexting**
+  - Attacker creates a fabricated story to deceive victim
+  - Attacker pretends to be someone they are not (trusted authority figure)
+  - Characteristics
+    - Use of elaborate false scenarios
+    - Targets personal or sensitive information
+    - Attacker poses as trusted individual or entity
+    - High level of customization
+  - Mitigation
+    - Security awareness training and education
+    - Verification procedures
+    - Education limit information disclosure
+    - Incident reporting mechanisms
+  
+  - **Watering Hole**
+    - Attacker compromises a specific group of end users by infecting a website they frequently visit
+    - Characteristics
+      - Target a specific group of users
+      - Exploit website vulnerabilities
+      - Redirecting users to exploited websites without their knowledge
+    - Mitigation
+      - Website security audits
+      - Security awareness and training
+      - Keep security software up to date
+      - Network segmentation and monitoring
+
+- **Brand Impersonation**
+  - Attacker impersonates a brand name
+  - Stealing personal information or sensitive information
+  - Emails, websites, social media
+  - Characteristics
+    - Counterfeit brand elements
+    - Phishing emails and fake website
+    - Exploiting trust in brands
+    - Target s broad audience
+  - Mitigation
+    - Brand monitoring
+    - Public awareness and education
+    - Internal security measures
+    - Incident response plan
+
+- **Typosquatting**
+- Attackers register domain names that are similar to well known domain names
+- Deceive users who make typographical errors
+  - Use of domain names that are slight misspellings or legitimate domain names
+  - Exploit user mistakes
+  - Variety of malicious intentions
+  - Fake websites and redirects
+  - Characteristics
+    - Similar or misspelled names
+    - Exploiting user mistakes
+    - Malicious intentions
+    - Fake websites or redirects
+  - Mitigation
+    - Security awareness and training
+    - Bookmarks for important sites
+    - Advanced web browsers
+    - 
