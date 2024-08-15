@@ -10,4 +10,5 @@ Security+ certification notes
 - [Social Engineering](06-social-engineering.md)
 - [Securing IT Assets](07-securing-it-assets.md)
 - [Hardware, software, and data asset management](08-asset-management.md)
+- [Security Architecture](09-security-architecture.md)
   
