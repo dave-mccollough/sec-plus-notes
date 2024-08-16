@@ -11,4 +11,5 @@ Security+ certification notes
 - [Securing IT Assets](07-securing-it-assets.md)
 - [Hardware, software, and data asset management](08-asset-management.md)
 - [Security Architecture](09-security-architecture.md)
-  
+- [Data Protection](10-data-protection.md)
+- [Alerting and Monitoring](11-alerting-monitoring.md)
