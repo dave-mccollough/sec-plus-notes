@@ -13,3 +13,4 @@ Security+ certification notes
 - [Security Architecture](09-security-architecture.md)
 - [Data Protection](10-data-protection.md)
 - [Alerting and Monitoring](11-alerting-monitoring.md)
+- [Cryptography](12-cryptography.md)
