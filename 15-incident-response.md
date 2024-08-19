@@ -1,0 +1,73 @@
+# Incident Response
+
+- **Incident Response Steps**
+  - Security Event
+    - Event that compromises CIA
+  - Security Incident Process
+    - Process of handling security events
+      - Preparation
+        - Develop incident response plan
+        - Establish incident response teams
+        - Step tools and communication channels
+      - Detection
+        - Identifying potential threats
+        - Network monitoring
+        - IDS
+        - Security Audits
+      - Analysis
+        - Once an incident is detected - analyze to understand its nature and scope
+          - Determining type of attack
+          - Systems affected
+          - Data compromised
+          - Attackers tactics and techniques
+          - Informs subsequent steps
+      - Containment
+        - Limit scope of incident
+        - Prevent further damage while maintaining critical systems
+          - Isolating affected systems
+          - Blocking malicious traffic
+          - Temporarily shutting down services
+      - Eradication
+        - Eradicate the root cause of the incident
+        - Removing malware, closing security gaps, patches, restoring systems
+      - Recovery
+        - Restore to normal operations
+        - Systems are cleaned and secure
+        - Monitoring for any signs of recurrence or fallout
+      - Lessons learned
+        - Post incident review
+        - Improve incident response plan
+
+- **Incident Response Training**
+  - Prepare individuals and teams to respond to cybersecurity events
+  - Tabletop exercises
+    - Team members walk through various incident scenarios
+  - Simulation
+    - Create a realistic cyber incident environment
+  - Root cause analysis
+    - Process for determining the underlying reasons why a security incident occurred
+  - Threat Hunting
+    - Proactive approach to detecting and isolating advanced threats
+
+- **Digital Forensics**
+  - Methodologies and principles applied to the investigation of cyber incidents
+  - Identification, collection, examination, and preservation of digital evidence
+    - Legal hold
+      - Evidence is preserved for legal or investigative purposes
+    - Chain of custody
+      - Documentation that records the custody, control and transfer of evidence
+    - Acquisition
+      - Collecting digital evidence
+    - Reporting
+      - Documenting the findings
+    - E-Discovery
+      - Process of identifying, collecting, and producing electronic data
+
+- **Types of Logs**
+  - Firewall logs
+  - Applications logs
+  - Endpoint logs
+  - OS specific security logs
+  - IPS/IDS logs
+  - Network logs
+  - Metadata
