@@ -1,0 +1,94 @@
+# Security Techniques
+
+- **Secure Baselines**
+  - A set of security standards and configurations that an organization establishes to protect its systems and data
+  - Developed based on industry best practices, regulatory requirements and the organizations specific security needs
+  - Security baseline
+    - Establish
+      - Assessment and analysis
+      - Defining standards and configurations
+      - Documentation
+    - Deploy
+      - Implementation
+      - Automation and Tools
+      - Verification and compliance checking
+    - Maintain
+      - Monitoring and auditing
+      - Updating and patching
+      - Training and awareness
+
+- **Hardening Devices**
+  - Involves implementing strong authentication, encrypting data, installing security software, controlling app permissions
+  - Workstations
+    - Installing antivirus
+    - Enabling firewalls
+    - Applying patches and updates
+  - Switches
+    - Disabling unnecessary services
+    - Securing management interfaces
+    - Implementing VLANs for network segmentation
+    - Using ACL to control network traffic
+  - Routers
+    - Changing default passwords
+    - Disabling unused services
+    - Updating firmware
+  - Cloud Infrastructure
+    - Strong IAM
+    - Encrypt data at rest and in transit
+    - Secure APIs
+    - Network security controls
+    - Cloud provider best practices
+  - Servers
+    - Install security updates
+    - Minimize running services
+    - Implement auth mechanisms
+    - Firewalls
+  - ICS/SCADA
+    - Segmenting networks
+    - Restricting physical and network access
+    - Disabling unnecessary services
+    - Applying patches
+  - Embedded Systems
+    - Secure boot processes
+    - Least privilege access control systems
+    - Security audits
+  - RTOS
+    - Reduce number of services to minimize attack surface
+    - Strict access controls
+    - Secure communication protocols
+  - IoT Devices
+    - Change default credentials
+    - Secure network connections
+    - Update firmware
+    - Disable unnecessary services
+
+- **Mobile Devices**
+  - MDM solutions
+  - Security and Compliance
+  - Device monitoring and management
+  - BYOD - Bring your own device
+  - COPE - Corporate owned, personally enabled
+  - CYOD - Choose your own device 
+
+- **Mobile Connections Methods**
+  - Cellular
+  - Wireless
+  - Bluetooth
+
+- **Wireless Security**
+  - WPA3
+  - AAA - Radius
+  - Cryptographic Protocols
+  - Authentication Protocols
+
+- **Application Security**
+  - Input validation
+  - Secure cookies
+  - Static code analysis
+  - Code Signing
+  - Sandboxing
+
+- **Security Monitoring**
+  - Network monitoring
+  - System and application monitoring
+  - Log Management and analysis
