@@ -14,3 +14,7 @@ Security+ certification notes
 - [Data Protection](10-data-protection.md)
 - [Alerting and Monitoring](11-alerting-monitoring.md)
 - [Cryptography](12-cryptography.md)
+- [Security Principles](13-security-principles.md)
+- [Security Techniques](14-security-techniques.md)
+- [Incident Response](15-incident-response.md)
+- [Resilience and Recovery](16-resilience-recovery.md)
